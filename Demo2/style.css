@@ -22,9 +22,8 @@ body{
     height: 100px;
 
 }
-
 #section_text_2 .padding_left_10{
-    margin-left: 200px;
+    margin-left: 220px;
     margin-top: 30px;
 }
 #section_text_2 .bold_text{
@@ -41,7 +40,7 @@ body{
 }
 #section_text_2 .pix_button {
     position: absolute;
-    top: 30px;
+    top: 25px;
     right: 30px;
     margin-right: 270px;
 }
@@ -59,7 +58,8 @@ body{
     list-style: none;
 }
 .propClone{
-    margin: 20px;
+    margin-top: 10px;
+    margin-left: 40px;
 
 }
 .navbar-nav a{
@@ -82,6 +82,66 @@ body{
     margin: 10px;
 }
 #section_header_1 .right_socials{
-    margin-right: 270px;
+    margin-right: 300px;
 
 }
+.bottom-icons .light_gray{
+    color: rgb(127,127,127);
+}
+
+#section_gym_4{
+    height: 450px;
+}
+#section_gym_4 .top_padding{
+    display: flex;
+    flex-direction: row;
+}
+#section_gym_4 .part_st{
+    border: none;
+    margin-left: 15px;
+}
+#section_gym_4 .gym_st{
+    font-weight: bold;
+    text-align: center;
+}
+#section_gym_4 .img_gym_st{
+    text-align: center;
+}
+#section_gym_4 .link_3_btn {
+    display: block ;
+    text-align: center;
+    margin-top: 25px;
+
+}
+#section_gym_4 .link_3_btn a{
+    text-decoration: none;
+    color: white;
+    border: none;
+    background-color: rgb(247, 120, 37);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+
+#section_gym_4 .top_padding{
+    margin-top: 50px;
+}
+#section_gym_4 .gym_text .editContent{
+     display: block;
+     text-align: center;
+     font-size: 15px; 
+     line-height: 2.0;
+     margin-top: 15px;    
+     margin-left: 50px;  
+     margin-right: 50px;
+     margin-bottom: 15px;
+     color: rgb(196, 178, 174);
+
+}
+#section_intro_title{
+    background-color: rgb(243, 243, 243)
+;
+}
+
