@@ -1,147 +1,143 @@
-body{
-    margin: 0;
-    font-family: Arial, sans-serif ;
-
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
-#section_slider{
-    background-color: rgb(243, 243, 243);
-
+#section_slider {
+  background-color: rgb(243, 243, 243);
 }
-#section_header_1{
-    height: 60px;
+#section_header_1 {
+  height: 60px;
 }
 
-#section_text_2 .alpha{
-    float: left;
+#section_text_2 .alpha {
+  float: left;
 }
-#section_text_2 .right_text{
-    float: right;
+#section_text_2 .right_text {
+  float: right;
 }
-#section_text_2 .container{
-    background-color: rgb(243, 243, 243);
-    height: 100px;
-
+#section_text_2 .container {
+  background-color: rgb(243, 243, 243);
+  height: 100px;
 }
-#section_text_2 .padding_left_10{
-    margin-left: 220px;
-    margin-top: 30px;
+#section_text_2 .padding_left_10 {
+  margin-left: 220px;
+  margin-top: 30px;
 }
-#section_text_2 .bold_text{
-    font-size: 13px;
-    font-weight: bold;
-    color: white;
-
+#section_text_2 .bold_text {
+  font-size: 13px;
+  font-weight: bold;
+  color: white;
 }
-#section_text_2 .btn_normal{
-    padding-left: 25px;
-    padding-right: 25px ;
-    padding-top: 12px;
-    padding-bottom: 12px;
+#section_text_2 .btn_normal {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 #section_text_2 .pix_button {
-    position: absolute;
-    top: 25px;
-    right: 30px;
-    margin-right: 270px;
+  position: absolute;
+  top: 25px;
+  right: 30px;
+  margin-right: 270px;
 }
-  #section_text_2 .orange_bg{
-      background-color: rgb(247, 120, 37);
-      border: none;
-      text-decoration: none;
-      border-radius: 5px;
-
-  }
-#section_header_1 .navbar-left{
-    display: flex;
-    float: left;
-    flex-direction: row;
-    list-style: none;
+#section_text_2 .orange_bg {
+  background-color: rgb(247, 120, 37);
+  border: none;
+  text-decoration: none;
+  border-radius: 5px;
 }
-.propClone{
-    margin-top: 10px;
-    margin-left: 40px;
-
+#section_header_1 .navbar-left {
+  display: flex;
+  float: left;
+  flex-direction: row;
+  list-style: none;
 }
-.navbar-nav a{
-    text-decoration: none;
-    color: rgb(140, 141, 140);
-    font-weight: bold;
-
+.propClone {
+  margin-top: 10px;
+  margin-left: 40px;
 }
-#navbar-collapse-02{
-    margin-left: 140px;
+.navbar-nav a {
+  text-decoration: none;
+  color: rgb(140, 141, 140);
+  font-weight: bold;
 }
-#section_header_1 .bottom-icons{
-    display: flex;
-    float: right;
-    flex-direction: row;
-    list-style: none;
+#navbar-collapse-02 {
+  margin-left: 140px;
 }
-#section_header_1 .right_socials a{
-    text-decoration: none;
-    margin: 10px;
+#section_header_1 .bottom-icons {
+  display: flex;
+  float: right;
+  flex-direction: row;
+  list-style: none;
 }
-#section_header_1 .right_socials{
-    margin-right: 300px;
-
+#section_header_1 .right_socials a {
+  text-decoration: none;
+  margin: 10px;
 }
-.bottom-icons .light_gray{
-    color: rgb(127,127,127);
+#section_header_1 .right_socials {
+  margin-right: 300px;
+}
+.bottom-icons .light_gray {
+  color: rgb(127, 127, 127);
 }
 
-#section_gym_4{
-    height: 450px;
+#section_gym_4 {
+  height: 450px;
 }
-#section_gym_4 .top_padding{
-    display: flex;
-    flex-direction: row;
+#section_gym_4 .top_padding {
+  display: flex;
+  flex-direction: row;
 }
-#section_gym_4 .part_st{
-    border: none;
-    margin-left: 15px;
+#section_gym_4 .part_st {
+  border: none;
+  margin-left: 15px;
 }
-#section_gym_4 .gym_st{
-    font-weight: bold;
-    text-align: center;
+
+#section_gym_4 .gym_st {
+  font-weight: bold;
+  text-align: center;
 }
-#section_gym_4 .img_gym_st{
-    text-align: center;
+#section_gym_4 .img_gym_st {
+  text-align: center;
 }
 #section_gym_4 .link_3_btn {
-    display: block ;
-    text-align: center;
-    margin-top: 25px;
-
+  display: block;
+  text-align: center;
+  margin-top: 40px;
 }
-#section_gym_4 .link_3_btn a{
-    text-decoration: none;
-    color: white;
-    border: none;
-    background-color: rgb(247, 120, 37);
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 5px;
-}
-
-#section_gym_4 .top_padding{
-    margin-top: 50px;
-}
-#section_gym_4 .gym_text .editContent{
-     display: block;
-     text-align: center;
-     font-size: 15px; 
-     line-height: 2.0;
-     margin-top: 15px;    
-     margin-left: 50px;  
-     margin-right: 50px;
-     margin-bottom: 15px;
-     color: rgb(196, 178, 174);
-
-}
-#section_intro_title{
-    background-color: rgb(243, 243, 243)
-;
+#section_gym_4 .link_3_btn a {
+  text-decoration: none;
+  color: white;
+  border: none;
+  background-color: rgb(247, 120, 37);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
 }
 
+#section_gym_4 .top_padding {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+#section_gym_4 .gym_text .editContent {
+  display: block;
+  text-align: center;
+  font-size: 15px;
+  line-height: 2;
+  margin-top: 15px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 15px;
+  color: rgb(196, 178, 174);
+  width: 200px;
+}
+#section_gym_4 .img_gym_st .logo_style {
+  border-radius: 50%;
+  object-fit: cover;
+}
+#section_intro_title {
+  background-color: rgb(243, 243, 243);
+}
