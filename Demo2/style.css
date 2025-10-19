@@ -1,143 +1,79 @@
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: Arial, sans-serif, Calibri;
 }
-#section_slider {
-  background-color: rgb(243, 243, 243);
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #a5dedf;
 }
-#section_header_1 {
-  height: 60px;
+.login_user{
+    width: 430px;
+    height: 340px;
+    padding: 25px;
 }
-
-#section_text_2 .alpha {
-  float: left;
+.login_user h3{
+    text-align: center;
+    margin: 15px 0 20px 0;
+    font-weight: 600;
+    font-size: 32px;
 }
-#section_text_2 .right_text {
-  float: right;
+.input_user .input_text {
+    width: 100%;
+    height: 45px;
+    font-size: 15px;
+    padding: 0 15px;
+    border-radius: 40px;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    box-shadow: 1px 3px 20px 1px rgba(0,0,0, 0.25);
 }
-#section_text_2 .container {
-  background-color: rgb(243, 243, 243);
-  height: 100px;
+.input_user ::placeholder{
+    font-weight: 600;
+    color: #775f5f;
 }
-#section_text_2 .padding_left_10 {
-  margin-left: 220px;
-  margin-top: 30px;
+.input_text:focus{
+    width: 110%;
 }
-#section_text_2 .bold_text {
-  font-size: 13px;
-  font-weight: bold;
-  color: white;
+.user_forgot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
 }
-#section_text_2 .btn_normal {
-  padding-left: 25px;
-  padding-right: 25px;
-  padding-top: 12px;
-  padding-bottom: 12px;
+.user_forgot section a{
+    text-decoration: none;
 }
-#section_text_2 .pix_button {
-  position: absolute;
-  top: 25px;
-  right: 30px;
-  margin-right: 270px;
+.user_forgot section a:hover{
+    text-decoration: underline;
+    color: #4e614f;
 }
-#section_text_2 .orange_bg {
-  background-color: rgb(247, 120, 37);
-  border: none;
-  text-decoration: none;
-  border-radius: 5px;
+.input_submit .btn_submit{
+    width: 100% ;
+    height: 45px;
+    background-color: #433c3c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    font-size: 17px;
 }
-#section_header_1 .navbar-left {
-  display: flex;
-  float: left;
-  flex-direction: row;
-  list-style: none;
+.btn_submit:hover{
+    opacity: 0.5;
 }
-.propClone {
-  margin-top: 10px;
-  margin-left: 40px;
+.sign_up_link{
+    text-align: center;
 }
-.navbar-nav a {
-  text-decoration: none;
-  color: rgb(140, 141, 140);
-  font-weight: bold;
-}
-#navbar-collapse-02 {
-  margin-left: 140px;
-}
-#section_header_1 .bottom-icons {
-  display: flex;
-  float: right;
-  flex-direction: row;
-  list-style: none;
-}
-#section_header_1 .right_socials a {
-  text-decoration: none;
-  margin: 10px;
-}
-#section_header_1 .right_socials {
-  margin-right: 300px;
-}
-.bottom-icons .light_gray {
-  color: rgb(127, 127, 127);
+.sign_up_link a{
+    text-decoration: none;
+    color: #433c3c;
+    font-weight: 600;
 }
 
-#section_gym_4 {
-  height: 450px;
-}
-#section_gym_4 .top_padding {
-  display: flex;
-  flex-direction: row;
-}
-#section_gym_4 .part_st {
-  border: none;
-  margin-left: 15px;
-}
 
-#section_gym_4 .gym_st {
-  font-weight: bold;
-  text-align: center;
-}
-#section_gym_4 .img_gym_st {
-  text-align: center;
-}
-#section_gym_4 .link_3_btn {
-  display: block;
-  text-align: center;
-  margin-top: 40px;
-}
-#section_gym_4 .link_3_btn a {
-  text-decoration: none;
-  color: white;
-  border: none;
-  background-color: rgb(247, 120, 37);
-  padding-top: 12px;
-  padding-bottom: 12px;
-  padding-left: 20px;
-  padding-right: 20px;
-  border-radius: 5px;
-}
-
-#section_gym_4 .top_padding {
-  display: flex;
-  justify-content: center;
-  margin-top: 70px;
-}
-#section_gym_4 .gym_text .editContent {
-  display: block;
-  text-align: center;
-  font-size: 15px;
-  line-height: 2;
-  margin-top: 15px;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-bottom: 15px;
-  color: rgb(196, 178, 174);
-  width: 200px;
-}
-#section_gym_4 .img_gym_st .logo_style {
-  border-radius: 50%;
-  object-fit: cover;
-}
-#section_intro_title {
-  background-color: rgb(243, 243, 243);
-}

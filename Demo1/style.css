@@ -1,0 +1,16 @@
+.container {
+    /*display: block;*/
+    /*display: flex;*/
+    background-color: rgb(0, 255, 255);
+    /*justify-content: space-evenly;*/
+    /*align-items: center;*/
+    /*flex-direction: row-reverse;*/
+    /*float: right;*/
+    /*margin-right: 150px ;*/
+    position: sticky;
+    top: 25px;
+
+}
+.box{
+background-color: rgb(62, 35, 219);
+}
