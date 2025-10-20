@@ -1,16 +1,94 @@
-.container {
-    /*display: block;*/
-    /*display: flex;*/
-    background-color: rgb(0, 255, 255);
-    /*justify-content: space-evenly;*/
-    /*align-items: center;*/
-    /*flex-direction: row-reverse;*/
-    /*float: right;*/
-    /*margin-right: 150px ;*/
-    position: sticky;
-    top: 25px;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Calibri, Arial, sans-serif;
+    background-color: #e4d9d9;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.header-img{
+    position: absolute;
+    top: -54px;
+    left: 155px;
+}
+.container .header-img img{
+    width: 105px;
+}
+.txt{
+    color: white;
+}
+.header_text{
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.login_box{
+    position: relative;
+    background-color: #3e3535;
+    width: 420px;
+    height: 380px;
+    padding: 60px 50px 20px 50px;
+    border-radius: 35px;
+}
+.input_form{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.input_text{
+    height: 40px;
+    background-color: #3e3535 ;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    padding: 0px 20px;
+    margin: 20px 0px;
+    font-size: 12px;
+    color: white;
+}
+.input_text:focus{
+    border-bottom: 1px solid #f4f477;
+}
+.input_form label{
+    position: absolute;
+    top: 10px;
+    left: 5px;
+}
+.input_text:focus ~ label,.input_text:valid ~ label{
+    top: 2px;
 
 }
-.box{
-background-color: rgb(62, 35, 219);
+.forgot{
+    text-align: right;
+    margin-bottom: 15px;
+}
+.forgot a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #cfcfc2;
+}
+.forgot a:hover{
+    color: yellow;
+    transition: .4s;
+}
+.input_form button{
+    height: 35px;
+    border: none;
+    border-radius: 35px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #e8d4d4;
+}
+
+.input_form button:hover{
+    opacity: 0.6;
+    transition: .3s;
 }
