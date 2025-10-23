@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    position: relative;
+}
+.container .holder{
+    height: 55vh;
+    width: 60vw;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+    margin: 5rem auto;
+    overflow: hidden;
+}
+.holder_img{
+    display: grid;
+    grid-template-columns: repeat(3, 100%);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+
+    animation: slider 30s ease-in-out infinite alternate ;
+
+}
+
+.holder #slider_img1{
+    background-image: url("img/app1.png");
+}
+.holder #slider_img2{
+    background-image: url("img/app2.png");
+}
+.holder #slider_img3{
+    background-image: url("img/app3.png");
+}
+
+.container .holder_btn .choose{
+        background-color: #3e1818;
+    border-radius: 20px;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    margin: 15px;
+}
+.container .holder_btn{
+    position: absolute;
+    left: 45%;
+    top: 328px;
+}
+@keyframes slider {
+    0%{transform: translateX(0%);}
+    10%{transform: translateX(-100%);}
+    20%{transform: translateX(-100%);}
+    30%{transform: translateX(-200%);}
+    40%{transform: translateX(-200%);}
+    50%{transform: translateX(-200%);}
+    60%{transform: translateX(-300%);}
+    70%{transform: translateX(-300%);}
+    80%{transform: translateX(-300%);}
+    90%{transform: translateX(0%);}
+    100%{transform: translateX(0%);}
+
+}
