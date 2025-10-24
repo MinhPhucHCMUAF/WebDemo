@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #638cd5;
+    font-family: Arial, sans-serif, Calibri;
+}
+.element{
+    width: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.element #img_change{
+    width: 50%;
+    /*height: 100px;*/
+    transform: translateX(300px) scale(3,4) rotate(30deg);
+}
+.circle{
+    width: 100px;
+    background-color: pink;
+    /*height: 100px;*/
+    padding: 50px 0px;
+    text-align: center;
+    margin: 60px auto;
+    line-height: 0;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+}
+.circle:hover{
+    background-color: #c2c86c;
+}
